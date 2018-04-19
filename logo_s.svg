@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="23px" viewBox="0 0 69 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>choi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="works" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-120.000000, -34.000000)">
+        <g id="1dept_menu" stroke="#B5B5B5" stroke-width="2">
+            <g id="choi" transform="translate(155.000000, 45.494505) rotate(-90.000000) translate(-155.000000, -45.494505) translate(144.000000, 11.868132)">
+                <path d="M11,60.3296703 C5.47698919,60.3296703 1,55.9018788 1,50.4395604 C1,44.9776547 5.47698919,40.5494505 11,40.5494505 C16.5230108,40.5494505 21,44.9776547 21,50.4395604 C21,55.9018788 16.5230108,60.3296703 11,60.3296703 Z" id="Stroke-1"></path>
+                <path d="M1,9.89010989 C1,4.42779151 5.47698919,0 11,0 C16.5225936,0 21,4.42779151 21,9.89010989" id="Stroke-3"></path>
+                <path d="M22,36.5934066 L1,28.6813187" id="Stroke-5"></path>
+                <path d="M22,23.7362637 L1,15.8241758" id="Stroke-7"></path>
+                <path d="M22,66.2637363 L0,66.2637363" id="Stroke-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

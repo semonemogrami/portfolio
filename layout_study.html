@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<style>
+			.block_container{
+				display: block;
+				border: 3px solid black;
+			}
+				.item1{
+					width: 200px;
+					height: 100px;
+					background-color: firebrick;
+					border: 1px dotted white;
+				}
+				.item2{
+					width: 200px;
+					height: 100px;
+					background-color: dimgray;
+					border: 1px dotted white;
+				}
+				.item3{
+					width: 200px;
+					height: 100px;
+					background-color: dodgerblue;
+					border: 1px dotted white;
+				}
+			.inline_container{
+				display: inline-block;
+				border: 3px solid gray;
+				}
+			
+				.in_item1{
+					width: 200px;
+					height: 100px;
+					background-color: firebrick;
+					border: 1px dotted white;
+					display: inline;
+				}
+				.in_item2{
+					width: 200px;
+					height: 100px;
+					background-color: dimgray;
+					border: 1px dotted white;
+					display: inline;
+				}
+				.in_item3{
+					width: 200px;
+					height: 100px;
+					background-color: dodgerblue;
+					border: 1px dotted white;
+					display: inline-block;
+				}	
+		
+			.flexbox_container{
+				display:inline-flex;
+				/*flex-wrap: wrap;*/
+				border: 3px solid black 
+			}
+				.f_item1{
+					width:700px;
+					height: 100px;
+					border: 1px dotted white;
+					display: inline-block;
+					background-color:firebrick;
+				}
+				.f_item2{
+					width: 200px;
+					height: 100px;
+					border: 1px dotted white;
+					display: inline-block;
+					background-color: dimgray;
+				}
+				.f_item3{
+					width: 200px;
+					height: 100px;
+					border: 1px dotted white;
+					display: inline-block;
+					background-color: dodgerblue;
+				}
+			.flex_container2{
+				display: flex;
+				border: 3px solid black;
+			}
+			.f2_item1{
+				flex:initial;
+				background-color: firebrick;
+				color: white;
+				border: 1px dotted white;
+				width:700px;
+				min-width: 200px;
+			}
+			.f2_item2{
+				flex:none;
+				width: 200px;
+				height: 100px;
+				background-color: dimgrey;
+				border: 1px dotted white;
+			}
+			.f2_item3{
+				flex:1;
+				height: 400px;
+				background-color: dodgerblue;
+				border: 1px dotted white;
+			}
+			.f2_item4{
+				flex: 2;
+				border: 1px dotted white;
+			}
+			.cards{
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+				grid-gap: 30px;
+			}
+			.cards{
+				max-width: 960px;
+				margin: 0 auto 30px;
+			}
+			article{
+				position: relative;
+			}
+			.article-img{
+				height: 200px;
+				width: 100%;
+				object-fit: cover;
+				background-color:darkturquoise;
+			}
+			.article-title{
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				padding: 10px;
+				background-color: rgba(255,255,255,0.3);
+				
+			}
+		</style>
+	</head>
+	<body>
+	<div class="block_container">
+		<div class="item1">block1</div>
+		<div class="item2">block2</div>
+		<div class="item3">block3</div>
+	</div>
+	<div class="inline_container">
+		<div class="in_item1">inline11111111inline11111111inline11111111</div>
+		<div class="in_item2">inline2</div>
+		<div class="in_item3">inline-block3</div>
+	</div>
+	<div class="flexbox_container">
+		<div class="f_item1">flex1 inline-flex하면 컨텐츠 양에 따라 플렉스박스의 사이즈가 결정됨</div>
+		<div class="f_item2">flex2</div>
+		<div class="f_item3">flex3</div>
+	</div>
+	<div class="flex_container2">
+		<div class="f2_item1">flex- initial 여유공간이 있으면 700px까지 늘어나고 없으면 100px 이하까지 줄어들지만 그 이하로는 더이상 줄어들지 않아요.</div>
+		<div class="f2_item2">flex- none 고정값으로 200px을 유지해요.</div>
+		<div class="f2_item3">flex1 나머지 너비의 1/3을 채워요</div>
+		<div class="f2_item4">flex2 나머지 너비의 2/3을 채워요</div>
+	</div>
+	<section class="cards">
+		<article>
+			<img class ="article-img" src="./img/obj1.png" alt="">
+			<h1 class="article-title">Title of article</h1>
+		</article>
+		<article>
+			<img class ="article-img" src="./img/obj2.png" alt="">
+			<h1 class="article-title">Title of article</h1>
+		</article>
+		<article>
+			<img class ="article-img" src="./img/obj3.gif" alt="">
+			<h1 class="article-title">Title of article</h1>
+		</article>
+	</section>
+		</body>
+</html>
